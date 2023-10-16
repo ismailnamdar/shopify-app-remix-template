@@ -1,3 +1,27 @@
-# This file stores configurations for your Shopify app.
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
+name = "Test Remix App"
+client_id = "f023691ce6b0cbfc3dcf086154890e73"
+application_url = "https://fear-completely-addressing-responded.trycloudflare.com"
+embedded = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://fear-completely-addressing-responded.trycloudflare.com/auth/callback",
+  "https://fear-completely-addressing-responded.trycloudflare.com/auth/shopify/callback",
+  "https://fear-completely-addressing-responded.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2023-10"
+
+[pos]
+embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "aoa-store-1.myshopify.com"

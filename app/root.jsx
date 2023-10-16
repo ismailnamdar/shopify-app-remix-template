@@ -2,7 +2,7 @@ import {
   Links,
   LiveReload,
   Meta,
-  Outlet,
+  // Outlet,
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
@@ -17,7 +17,8 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Outlet />
+        {/* <Outlet /> */}
+        This is test
         <ScrollRestoration />
         <LiveReload />
         <Scripts />
