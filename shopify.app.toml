@@ -2,7 +2,7 @@
 
 name = "Test Remix App"
 client_id = "f023691ce6b0cbfc3dcf086154890e73"
-application_url = "https://fear-completely-addressing-responded.trycloudflare.com"
+application_url = "https://george-westminster-genres-coupon.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://fear-completely-addressing-responded.trycloudflare.com/auth/callback",
-  "https://fear-completely-addressing-responded.trycloudflare.com/auth/shopify/callback",
-  "https://fear-completely-addressing-responded.trycloudflare.com/api/auth/callback"
+  "https://george-westminster-genres-coupon.trycloudflare.com/auth/callback",
+  "https://george-westminster-genres-coupon.trycloudflare.com/auth/shopify/callback",
+  "https://george-westminster-genres-coupon.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
