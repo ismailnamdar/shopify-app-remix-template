@@ -17,7 +17,8 @@
     "setup": "prisma generate && prisma migrate deploy",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
     "shopify": "shopify",
-    "prisma": "prisma"
+    "prisma": "prisma",
+    "rollback": "prisma migrate resolve --rolled-back \"20230615155147_create_session_table\""
   },
   "dependencies": {
     "@prisma/client": "^4.13.0",
