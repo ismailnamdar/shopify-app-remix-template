@@ -2,7 +2,7 @@
 
 name = "Test Remix App"
 client_id = "f023691ce6b0cbfc3dcf086154890e73"
-application_url = "https://george-westminster-genres-coupon.trycloudflare.com"
+application_url = "https://theorem-resolve-solomon-engineer.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://george-westminster-genres-coupon.trycloudflare.com/auth/callback",
-  "https://george-westminster-genres-coupon.trycloudflare.com/auth/shopify/callback",
-  "https://george-westminster-genres-coupon.trycloudflare.com/api/auth/callback"
+  "https://theorem-resolve-solomon-engineer.trycloudflare.com/auth/callback",
+  "https://theorem-resolve-solomon-engineer.trycloudflare.com/auth/shopify/callback",
+  "https://theorem-resolve-solomon-engineer.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
